@@ -1,4 +1,4 @@
-let once = (func) => {
+function once(func){
   if (typeof func !== "function") throw new TypeError("Expected a function");
   let count = 1;
   let res;
@@ -10,6 +10,10 @@ let once = (func) => {
   };
 };
 
+export default once;
+
+/*
+
 let add = (a, b) => {
   return a + b;
 };
@@ -20,4 +24,4 @@ console.log(addonce(2, 2)); // 3
 console.log(addonce(3, 2)); // 3
 console.log(addonce(3, 5)); // 3
 
-export default once;
+*/
