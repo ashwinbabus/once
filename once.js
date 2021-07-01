@@ -19,3 +19,5 @@ console.log(addonce(1, 2)); // 3
 console.log(addonce(2, 2)); // 3
 console.log(addonce(3, 2)); // 3
 console.log(addonce(3, 5)); // 3
+
+export default once;
